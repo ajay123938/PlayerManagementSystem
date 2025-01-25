@@ -1,0 +1,134 @@
+body{
+    height:100vh;
+    width:100vw;
+    background: rgb(150, 150, 224);
+}
+
+.header{
+
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+   
+    gap:60px;
+
+}
+.nav{
+
+    background-color: rgb(15, 33, 52);
+    height:40px;
+    width:800px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h2{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: rgb(15, 33, 52);
+   font-style: italic;
+  
+}
+
+.card{
+    color: white;
+    background-color: rgb(29, 27, 27);
+}
+
+.show{
+
+    height:100%;
+    width:100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.item{
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:20px;
+    margin-right: 195px;
+}
+
+.player{
+    position: relative;
+    width:60rem;
+    height:420px;
+    background-color: white;
+   
+    
+   }
+
+table{
+
+    position: absolute;
+    width:20rem;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    z-index:5;
+   
+
+}
+
+.show1{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:80px;
+}
+
+.addplayerbutt{
+
+    height:40px;
+    background-color: rgb(29, 27, 27);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color:white;
+    width:200px;
+
+}
+
+.criteria{
+
+border: none;
+border-radius:10px;
+background-color: gray;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+color:white;
+height:35px;
+text-align: center;
+}
+
+#name{
+    margin-left: 10px;
+}
+
